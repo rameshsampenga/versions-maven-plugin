@@ -77,10 +77,10 @@ It is required if you want to get a Pull request to be integrated into please
 squash your commits into a single commit which references the issue in the
 commit message which looks like this:
 
-```
+'''
 Fixed #Issue
  o Description.
-```
+'''
 
 This makes it simpler to merge it and this will also close the
 appropriate issue automatically in one go. This make the life as 
