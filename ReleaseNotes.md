@@ -2,22 +2,22 @@
 
 ## 2.5 (NOT YET RELEASED)
 
- * [Fixed Issue 129][issue-129]
+ * [Fixed Issue 129] [issue-129]
    
    dependency-update-report now is able to disable the processing 
-   the transitive dependencies. This can now being enabled/disabled 
-   via processDependencyManagementTransitive. The default is true to 
-   keep backward compatibillity.
+   of the transitive dependencies in the dependencyManagement part.
+   This can be enabled (default)/disabled by setting
+   processDependencyManagementTransitive accordingly.
 
- * [Fixed Issue 166][issue-166]
+ * [Fixed Issue 166] [issue-166]
    
    Upgraded modello-maven-plugin to 1.9.1
 
- * [Fixed Issue 167][issue-167]
+ * [Fixed Issue 167] [issue-167]
   
    Upgraded versions-maven-plugin from 2.1 to 2.4
 
- * [Fixed Issue 168][issue-168]
+ * [Fixed Issue 168] [issue-168]
  
    Added allowMajorUpdates, allowMinorUpdates, allowIncrementalUpdates
    to resolve-ranges and display-property-updates goal.

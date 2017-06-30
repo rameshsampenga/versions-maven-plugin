@@ -28,10 +28,10 @@ If you like to get your pull request being integrated please squash your
 commits into a single commit which references the issue in the commit message
 exactly like this:
 
-```
+'''
 Fixed #Issue
  o Description.
-```
+'''
 
 This makes it simpler to merge it and this will also close the
 appropriate issue automatically in one go. This makes the life for
@@ -45,15 +45,15 @@ hard or to be honest impossible.
 
 ## Releasing
 
-* Make sure `gpg-agent` is running.
-* Execute `mvn -B release:prepare release:perform`
+* Make sure 'gpg-agent' is running.
+* Execute 'mvn -B release:prepare release:perform'
 
 For publishing the site do the following:
 
-```
+'''
 cd target/checkout
 mvn verify site site:stage scm-publish:publish-scm
-```
+'''
 
 ## Contribution
 
@@ -77,10 +77,10 @@ It is required if you want to get a Pull request to be integrated into please
 squash your commits into a single commit which references the issue in the
 commit message which looks like this:
 
-```
+'''
 Fixed #Issue
  o Description.
-```
+'''
 
 This makes it simpler to merge it and this will also close the
 appropriate issue automatically in one go. This make the life as 
